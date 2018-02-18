@@ -7,7 +7,7 @@ const router = require('./router');
 const mongoose = require('mongoose');
 
 // DB setup
-mongoose.connect('mongodb://localhost:authapi/authapi');
+mongoose.connect('mongodb://localhost/authapi');
 
 // App Setup
 app.use(morgan('combined'));
